@@ -1,0 +1,28 @@
+#wallet-connect-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #ffffff;
+    height: 30rem;
+    width: 80vw;
+    max-width: 60rem;
+    border-radius: 1rem;
+    padding: 0 1.6rem;
+    .title {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .paragraph {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    .action-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1.2rem;
+    }
+}
